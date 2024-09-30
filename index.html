@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harcama Hesaplayıcı</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="images/Udemig.png" alt="logo" />
+      </div>
+      <h1>Harcama Hesaplayıcıya Hoşgeldiniz</h1>
+      <form id="expense-form">
+        <div class="form-group">
+          <div class="input-container">
+            <label for="expense-name">Harcama</label>
+            <input
+              type="text"
+              id="expense-name"
+              placeholder="Harcama adı giriniz."
+            />
+          </div>
+          <div class="input-container">
+            <label for="expense-amount">Miktar</label>
+            <input
+              type="text"
+              id="expense-amount"
+              placeholder="Harcama miktarını giriniz."
+            />
+          </div>
+        </div>
+        <button type="submit">Harcama Ekle</button>
+      </form>
+
+      <div id="expense">
+        <!-- <div class="harcama">
+          <h2>Kalem</h2>
+          <h3>125 TL</h3>
+          <img id="delete-btn" src="images/trash.png" alt="trash-img" />
+        </div> -->
+      </div>
+    </div>
+    <!-- * Js Bağlantı -->
+    <script src="./main.js"></script>
+  </body>
+</html>
